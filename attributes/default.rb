@@ -1,6 +1,6 @@
 if node['platform_family'] == 'mac_os_x'
   case node['platform_version'].split('.')[1,2].join('.').to_f
-    when 0.0..1.5
+    when 0.0..3.9
       raise "Unsupported platform version #{node['platform_version']}"
     when 4.0..5.7
       default['adium']['version'] = '1.3.10'
