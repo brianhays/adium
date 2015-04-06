@@ -15,6 +15,7 @@ Attributes
 
 * `node['adium']['url']` - where to retrieve the dmg file
 * `node['adium']['checksum']` - the sha256sum of the dmg file.
+* `node['adium']['version']` - sets the adium version
 
 Usage
 =====
